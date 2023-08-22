@@ -1,0 +1,38 @@
+{
+  "graphs" : [ {
+    "id" : "https://purl.brain-bican.org/ontology/dhbao/dhbao-simple-non-classified.json",
+    "meta" : {
+      "basicPropertyValues" : [ {
+        "pred" : "http://purl.org/dc/terms/description",
+        "val" : "None"
+      }, {
+        "pred" : "http://purl.org/dc/terms/license",
+        "val" : "https://creativecommons.org/licenses/unspecified"
+      }, {
+        "pred" : "http://purl.org/dc/terms/title",
+        "val" : "Developing Human Brain Atlas Ontology"
+      }, {
+        "pred" : "http://www.w3.org/2002/07/owl#versionInfo",
+        "val" : "2023-08-22"
+      } ],
+      "version" : "https://purl.brain-bican.org/ontology/dhbao/releases/2023-08-22/dhbao-simple-non-classified.json"
+    },
+    "nodes" : [ {
+      "id" : "http://purl.org/dc/terms/description",
+      "lbl" : "description",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.org/dc/terms/license",
+      "lbl" : "license",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "http://purl.org/dc/terms/title",
+      "lbl" : "title",
+      "type" : "PROPERTY"
+    }, {
+      "id" : "https://purl.brain-bican.org/ontology/DHBAO_0000000",
+      "lbl" : "root node",
+      "type" : "CLASS"
+    } ]
+  } ]
+}

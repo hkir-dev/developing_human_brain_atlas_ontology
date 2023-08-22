@@ -1,0 +1,12 @@
+format-version: 1.2
+data-version: https://purl.brain-bican.org/ontology/dhbao/releases/2023-08-22/dhbao-simple.owl
+ontology: https://purl.brain-bican.org/ontology/dhbao/dhbao-simple.owl
+property_value: http://purl.org/dc/terms/description "None" xsd:string
+property_value: http://purl.org/dc/terms/license https://creativecommons.org/licenses/unspecified
+property_value: http://purl.org/dc/terms/title "Developing Human Brain Atlas Ontology" xsd:string
+property_value: owl:versionInfo "2023-08-22" xsd:string
+
+[Term]
+id: DHBAO:0000000
+name: root node
+
