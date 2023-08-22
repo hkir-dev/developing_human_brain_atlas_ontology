@@ -1,0 +1,39 @@
+dhba:
+  species: human dev
+  graph: 16
+  atlases:
+    -
+      name: Human, 34 years, Cortex - Gyral
+      id: 138322605
+    -
+      name: Human, 34 years, Cortex - Mod. Brodmann
+      id: 265297126
+    -
+      name: Human, 21 pcw
+      id: 3
+    -
+      name: 287730656
+      id: 138322603
+
+mba:
+  species: mouse
+  graph: 1
+  atlases:
+    -
+      id: 602630314
+      name: Adult Mouse, 3D Coronal
+    -
+      id: 1
+      name: Mouse, P56, Coronal
+
+    - id: 2
+      name: Mouse, P56, Sagittal
+
+hba:
+  species: human
+  graph: 10
+  atlases:
+    -  
+      id: 265297125
+      name: Human Brain Atlas Guide
+    

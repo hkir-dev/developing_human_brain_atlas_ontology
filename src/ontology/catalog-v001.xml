@@ -9,7 +9,7 @@
   <uri name="https://purl.brain-bican.org/ontology/dhbao/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
   <uri name="https://purl.brain-bican.org/ontology/dhbao/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo"/>
   
-
+  <uri name="https://purl.brain-bican.org/ontology/dhbao/imports/merged_import.owl" uri="imports/merged_import.owl"/>
 
   
   <uri name="https://purl.brain-bican.org/ontology/dhbao/components/all_templates.owl" uri="components/all_templates.owl"/>
