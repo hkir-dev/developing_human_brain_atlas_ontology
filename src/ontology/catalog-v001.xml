@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<catalog prefer="public" xmlns="urn:oasis:names:tc:entity:xmlns:xml:catalog">
+<group id="Folder Repository, directory=, recursive=false, Auto-Update=false, version=2" prefer="public" xml:base="">
+
+  
+  <uri name="https://purl.brain-bican.org/ontology/dhbao/imports/uberon_import.owl" uri="imports/uberon_import.owl"/>
+  <uri name="https://purl.brain-bican.org/ontology/dhbao/imports/uberon_import.obo" uri="imports/uberon_import.obo"/>
+  
+  <uri name="https://purl.brain-bican.org/ontology/dhbao/imports/ncbitaxon_import.owl" uri="imports/ncbitaxon_import.owl"/>
+  <uri name="https://purl.brain-bican.org/ontology/dhbao/imports/ncbitaxon_import.obo" uri="imports/ncbitaxon_import.obo"/>
+  
+
+
+  
+  <uri name="https://purl.brain-bican.org/ontology/dhbao/components/all_templates.owl" uri="components/all_templates.owl"/>
+  
+ 
+  <uri name="https://purl.brain-bican.org/ontology/dhbao/patterns/definitions.owl" uri="../patterns/definitions.owl"/>
+</group>
+</catalog>

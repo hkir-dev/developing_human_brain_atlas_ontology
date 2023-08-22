@@ -1,0 +1,47 @@
+id: dhbao
+title: Developing Human Brain Atlas Ontology
+github_org: hkir-dev
+repo: developing_human_brain_atlas_ontology
+uribase: https://purl.brain-bican.org/ontology
+use_dosdps: TRUE
+#dosdp_tools_options: "--obo-prefixes=true --prefixes=prefixes.yaml"
+export_formats:
+  - owl
+  - obo
+  - json
+release_artefacts:
+  - base
+  - simple-non-classified
+  - full
+  - simple
+primary_release: full
+import_group:
+  use_base_merging: TRUE
+  slme_individuals: exclude
+  exclude_iri_patterns:
+    - <http://www.informatics.jax.org/marker/MGI:*>
+    - <http://purl.obolibrary.org/obo/OBA_*>
+    - <http://purl.obolibrary.org/obo/ENVO_*>
+    - <http://purl.obolibrary.org/obo/OBI_*>
+    - <http://purl.obolibrary.org/obo/GOCHE_*>
+    - <http://purl.obolibrary.org/obo/CARO_*>
+    - <http://purl.obolibrary.org/obo/NCBITaxon_Union_*>
+    - <http://www.genenames.org/cgi-bin/gene_symbol_report*>
+  products:
+    - id: uberon
+#      mirror_from: http://purl.obolibrary.org/obo/uberon/subsets/human-view.owl
+      use_base: TRUE
+    - id: ncbitaxon
+      mirror_from: http://purl.obolibrary.org/obo/ncbitaxon/subsets/taxslim.owl
+#    - id: mba_uberon_bridge
+##      mirror_from: https://github.com/obophenotype/ABA_Uberon/blob/master/src/ontology/sources/uberon-bridge-to-hba.obo
+#      mirror_from: https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-mba.obo
+
+components:
+  products:
+    - filename: all_templates.owl
+
+documentation:
+  documentation_system: mkdocs
+
+
