@@ -2,10 +2,9 @@
 ![Build Status](https://github.com/hkir-dev/developing_human_brain_atlas_ontology/workflows/CI/badge.svg)
 # Developing Human Brain Atlas Ontology
 
-Description: None
+This repository contains an application ontology built by combining ontologised versions of the Allen Institute Developing Human Brain Atlas (DHBA) StructureGraph mapped to Uberon. 
 
-More information can be found at http://obofoundry.org/ontology/dhbao
-
+More information can be found at https://hkir-dev.github.io/developing_human_brain_atlas_ontology/
 ## Versions
 
 ### Stable release versions
