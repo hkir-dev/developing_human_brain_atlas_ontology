@@ -79,7 +79,6 @@ intersection_of: part_of NCBITaxon:10090
 relationship: only_in_taxon NCBITaxon:10090
 relationship: part_of NCBITaxon:10090
 property_value: prefLabel "ABA entity" xsd:string
-property_value: prefLabel "ABA entity" xsd:string
 
 [Term]
 id: ABA:SNI
@@ -27109,7 +27108,6 @@ intersection_of: UBERON:0001062
 intersection_of: part_of NCBITaxon:9606
 relationship: only_in_taxon NCBITaxon:9606
 relationship: part_of NCBITaxon:9606
-property_value: prefLabel "DHBA entity" xsd:string
 property_value: prefLabel "DHBA entity" xsd:string
 
 [Term]
