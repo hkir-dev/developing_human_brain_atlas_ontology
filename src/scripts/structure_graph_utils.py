@@ -3,10 +3,10 @@ import ntpath
 
 
 NAMESPACES = {"1.json": "https://purl.brain-bican.org/ontology/mbao/MBA_",
-              "17.json": "https://purl.brain-bican.org/ontology/mbao/DMBA_",
-              "10.json": "https://purl.brain-bican.org/ontology/mbao/HBA_",
-              "16.json": "https://purl.brain-bican.org/ontology/mbao/DHBA_",
-              "8.json": "https://purl.brain-bican.org/ontology/mbao/PBA_"}
+              "17.json": "https://purl.brain-bican.org/ontology/dmbao/DMBA_",
+              "10.json": "https://purl.brain-bican.org/ontology/hbao/HBA_",
+              "16.json": "https://purl.brain-bican.org/ontology/dhbao/DHBA_",
+              "8.json": "https://purl.brain-bican.org/ontology/pbao/PBA_"}
 
 
 def read_structure_graph(graph_json):

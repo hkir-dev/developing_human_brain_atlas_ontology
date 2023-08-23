@@ -61,32 +61,32 @@ sources/%.ofn: ../linkml/data/template_%.tsv
 sources/uberon-bridge-to-aba.owl:
 	curl -o sources/uberon-bridge-to-aba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-aba.obo"
 	$(ROBOT) convert -i sources/uberon-bridge-to-aba.obo --format owl -o $@
-	sed -i 's|http://purl.obolibrary.org/obo/ABA_|https://purl.brain-bican.org/ontology/mbao/ABA_|g' $@
+	sed -i 's|http://purl.obolibrary.org/obo/ABA_|https://purl.brain-bican.org/ontology/aba/ABA_|g' $@
 
 sources/uberon-bridge-to-dhba.owl:
 	curl -o sources/uberon-bridge-to-dhba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-dhba.obo"
 	$(ROBOT) convert -i sources/uberon-bridge-to-dhba.obo --format owl -o $@
-	sed -i 's|http://purl.obolibrary.org/obo/DHBA_|https://purl.brain-bican.org/ontology/mbao/DHBA_|g' $@
+	sed -i 's|http://purl.obolibrary.org/obo/DHBA_|https://purl.brain-bican.org/ontology/dhba/DHBA_|g' $@
 
 sources/uberon-bridge-to-dmba.owl:
 	curl -o sources/uberon-bridge-to-dmba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-dmba.obo"
 	$(ROBOT) convert -i sources/uberon-bridge-to-dmba.obo --format owl -o $@
-	sed -i 's|http://purl.obolibrary.org/obo/DMBA_|https://purl.brain-bican.org/ontology/mbao/DMBA_|g' $@
+	sed -i 's|http://purl.obolibrary.org/obo/DMBA_|https://purl.brain-bican.org/ontology/dmba/DMBA_|g' $@
 
 sources/uberon-bridge-to-hba.owl:
 	curl -o sources/uberon-bridge-to-hba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-hba.obo"
 	$(ROBOT) convert -i sources/uberon-bridge-to-hba.obo --format owl -o $@
-	sed -i 's|http://purl.obolibrary.org/obo/HBA_|https://purl.brain-bican.org/ontology/mbao/HBA_|g' $@
+	sed -i 's|http://purl.obolibrary.org/obo/HBA_|https://purl.brain-bican.org/ontology/hba/HBA_|g' $@
 
 sources/uberon-bridge-to-mba.owl:
 	curl -o sources/uberon-bridge-to-mba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-mba.obo"
 	$(ROBOT) convert -i sources/uberon-bridge-to-mba.obo --format owl -o $@
-	sed -i 's|http://purl.obolibrary.org/obo/MBA_|https://purl.brain-bican.org/ontology/mbao/MBA_|g' $@
+	sed -i 's|http://purl.obolibrary.org/obo/MBA_|https://purl.brain-bican.org/ontology/mba/MBA_|g' $@
 
 sources/uberon-bridge-to-pba.owl:
 	curl -o sources/uberon-bridge-to-pba.obo "https://raw.githubusercontent.com/obophenotype/uberon/master/src/ontology/bridge/uberon-bridge-to-pba.obo"
 	$(ROBOT) convert -i sources/uberon-bridge-to-pba.obo --format owl -o $@
-	sed -i 's|http://purl.obolibrary.org/obo/PBA_|https://purl.brain-bican.org/ontology/mbao/PBA_|g' $@
+	sed -i 's|http://purl.obolibrary.org/obo/PBA_|https://purl.brain-bican.org/ontology/pba/PBA_|g' $@
 
 # TODO handle legacy mapings
 
