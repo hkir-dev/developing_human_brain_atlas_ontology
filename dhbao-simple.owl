@@ -14,10 +14,10 @@
      xmlns:terms="http://purl.org/dc/terms/"
      xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
     <owl:Ontology rdf:about="https://purl.brain-bican.org/ontology/dhbao/dhbao-simple.owl">
-        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/dhbao/releases/2023-08-23/dhbao-simple.owl"/>
+        <owl:versionIRI rdf:resource="https://purl.brain-bican.org/ontology/dhbao/releases/2023-08-24/dhbao-simple.owl"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/unspecified"/>
         <terms:title>Developing Human Brain Atlas Ontology</terms:title>
-        <owl:versionInfo>2023-08-23</owl:versionInfo>
+        <owl:versionInfo>2023-08-24</owl:versionInfo>
     </owl:Ontology>
     
 

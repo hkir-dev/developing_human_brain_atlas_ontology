@@ -28,7 +28,7 @@ for n in g['nodes']:
     if 'type' in n.keys() and n['type'] == 'CLASS':
         lstat = True
         for k, v in mapping.items():
-            if str(n['id']).lower().startswith('http://purl.obolibrary.org/obo/%s' % k) and 'lbl' in n:
+            if str(n['id']).lower().startswith('https://purl.brain-bican.org/ontology/%s' % k) and 'lbl' in n and not str(n['id']).endswith('_ENTITY'):
                 for a in v['atlases']:
                     try:
                         tab.append({'ID': n['id'],
