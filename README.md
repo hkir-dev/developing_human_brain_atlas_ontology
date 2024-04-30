@@ -20,7 +20,7 @@ https://purl.brain-bican.org/ontology/dhbao.owl
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/dhbao-edit.owl](src/ontology/dhbao-edit.owl)
+Editors of this ontology should use the edit version, [src/ontology/dhbao-edit.owl](src/ontology/dhbao/dhbao-edit.owl)
 
 ## Contact
 
