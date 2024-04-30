@@ -14,13 +14,13 @@ More information can be found at https://brain-bican.github.io/developing_human_
 
 The latest version of the ontology can always be found at:
 
-https://purl.brain-bican.org/ontology/dhbao.owl
+https://purl.brain-bican.org/ontology/dhbao/dhbao.owl
 
 (note this will not show up until the request has been approved by obofoundry.org)
 
 ### Editors' version
 
-Editors of this ontology should use the edit version, [src/ontology/dhbao/dhbao-edit.owl](src/ontology/dhbao/dhbao-edit.owl)
+Editors of this ontology should use the edit version, [src/ontology/dhbao-edit.owl](src/ontology/dhbao-edit.owl)
 
 ## Contact
 
